@@ -8,9 +8,12 @@ TASK 1. Geometric progression
 int main() {
     int first_term, third_term;
     scanf("%d %d", &first_term, &third_term);
+
     int common_ratio = (int) sqrt(third_term / first_term);
     int second_term = first_term * common_ratio;
-    printf("%d %d\n", second_term, common_ratio);
+
+    printf("%d %d", second_term, common_ratio);
+
     return 0;
 }
 
