@@ -1,0 +1,174 @@
+TASK 1. Multiples of 3
+
+Get N integers from the user and for each one print Yes if the number is divisible by 3 without remainder,
+and No if it is not divisible
+N is in the range from 1 to 100 inclusive
+The numbers ni are in the range from -1000 to 1000 inclusive.
+
+Input format
+N
+n1
+n2
+...
+nN
+
+Output format
+Yes
+No
+...
+Yes
+
+
+TASK 2. Simple numbers
+
+Write a programme that counts the number of prime numbers Count up to and including the number N entered by the user.
+N ranges from 2 to 10^7.
+A prime number is a number that is divisible without remainder only by 1 and by itself
+
+Input format
+N
+
+Output format
+Count
+
+
+TASK 3. Triangle
+
+The user enters a positive integer N in the range from 5 to 25.
+Output N lines of asterisks.
+The number of asterisks in each line is decremented by 1
+
+Input format
+N
+
+Output format
+*****
+****
+***
+**
+*
+
+
+TASK 4. Maximum number digit
+
+A non-negative integer N is given. Display the maximum digit of the number.
+N is in the range from 0 to 10^9
+
+Input format
+N
+
+Output format
+dmax
+
+
+TASK 5. The inverted number
+
+Receive two positive integers N and M from the user
+Determine whether it is possible to get the second number from one number by reversing it
+If yes, print Yes
+If no, print No
+The numbers N and M are in the range from 1 to 10^9.
+
+Input format
+N M
+
+Output format
+Yes
+No
+
+
+TASK 6. Chocolate
+
+A chocolate bar is a rectangle of NxM chocolate bars
+The user enters the number of pieces K that he wants to break off in one break.
+If the bar is square, the side N is changed.
+If the break is possible, the new size of the tile is printed, if not possible - the old size.
+If one of the sizes reaches 0, the programme displays the following message
+Chocolate is over
+message and stops working
+The zero size is not displayed
+If the user enters a non-positive number, the programme stops with the message You are full.
+N, M, K are in the range from 1 to 1000.
+
+Input format
+N M
+K1
+K2
+...
+-1
+
+Output format
+N1 M N1 M1 ...
+
+
+TASK 7. Pythagoras' triplets
+
+Receive from the user a non-negative integer N
+and display all Pythagoras triples within this number inclusive on the screen
+
+Input format
+N
+N is in the range from 5 to 1000 inclusive
+
+Output format
+a1 b1 c1 a2 b2 c2 ... ai<=bi<c
+
+
+TASK 8. Multiples of 6
+
+The user enters a sequence of digits.
+After each entered digit, the programme determines
+whether this set can be used to make a number divisible by 6
+If no - outputs No and the input continues
+If yes - outputs Stop and the programme ends.
+If the user enters -1, the programme ends
+
+Input format
+d1 d2 d3 d4 ...
+di from 0 to 9
+
+Output format
+No
+No
+No
+Stop
+
+
+TASK 9. Calculator
+
+Develop a calculator programme to perform six arithmetic operations
++ - * / % =
+The programme is given an integer N1 in the range from -1000 to 1000 inclusive,
+then the operation sign op1 ,
+then the integer N2 again, etc.
+The operation priorities are not taken into account in the calculations
+It is guaranteed that the last operation in the sequence is = =.
+After that the programme should output the answer res
+
+Input format
+N1
+op1
+N2
+op2
+N3
+=
+
+Output format
+res
+
+
+TASK 10. Rectangle
+
+Write a programme that determines whether three integers can be
+a, b, and c,
+entered by the user can be sides of a rectangle.
+Yes if they can
+No if they cannot
+
+Input format
+a b c
+
+Output format
+
+Yes if they can
+No if they cannot
