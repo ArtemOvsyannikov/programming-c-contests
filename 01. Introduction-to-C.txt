@@ -1,0 +1,64 @@
+TASK 1. Geometric progression
+
+Given two positive integers b1 and b3, which are the first and third terms of a geometric progression.
+Calculate the second term of the geometric progression b2 and the denominator of the progression q.
+
+The number b1 ranges from 1 to 100.
+The number b3 is in the range from 1 to 1000000 inclusive.
+
+Input format
+b1 b3
+
+Output format
+b2 q
+
+
+TASK 2. The sum of the digits of a five-digit number
+
+A number N is given in the range from 0 to 99999. Display the sum of M digits of the number
+
+Input format
+N
+
+Output format
+M
+
+
+TASK 3. An inverted five-digit number
+
+Given a five-digit number N in the range from 0 to 99999 inclusive.
+Output it in reverse order rN. The left zeros are not output.
+
+Input format
+N
+
+Output format
+rN
+
+
+TASK 4. Time in seconds
+
+Three integers h, m, s - hours, minutes and seconds - are given.
+Output an integer N representing the time in seconds
+
+h in the range from 0 to 23 inclusive
+m in the range from 0 to 59 inclusive
+s in the range from 0 to 59 inclusive
+
+Input format
+h m s
+
+Output format
+N
+
+
+TASK 5. Time in format
+
+The time in seconds T is given.
+Output the time in the usual format hh:mm:ss
+
+Input format
+T
+
+Output format
+hh:mm:ss
