@@ -1,0 +1,161 @@
+TASK 1. Leap year
+
+Get the year number N from the user and determine if the year is leap year.
+If the year is a leap year, print Yes, if not, print No.
+A leap year is a year divisible by 4 and not divisible by 100, but years divisible by 400 are considered leap years.
+Example of a leap year: 1988, 2000, 2012 Example of a non-leap year: 1700, 2021
+
+Input format
+N
+
+Output format
+Yes - if the year is leap year
+No - if the year is a non-leap year
+
+
+TASK 2. Lucky ticket
+
+A user enters the six-digit ticket number N.
+Determine whether the ticket is a "lucky" ticket.
+A "happy" ticket is a ticket whose sum of the left three digits is the same as the sum of the right three digits.
+For a "happy" ticket, print the word Happy.
+For an "unhappy" ticket, output the word Unhappy.
+
+Input format
+N
+N in the range from 000001 to 999999
+
+Output format
+Happy for "happy"
+Unhappy for "unhappy"
+
+
+TASK 3. Palindrome
+
+A user enters a six-digit number N.
+Determine whether this number is a palindrome.
+A palindrome is a number that is read equally from right to left and from left to right.
+For a palindrome, print the word Palindrom.
+Otherwise - Non palindrom.
+
+Input format
+N in the range from 0 to 999999
+
+Output format
+Palndrom for palindromes
+Non palindrom for a normal number
+
+
+TASK 4. Odd numbers
+
+The user enters a five-digit number N.
+N is in the range from -99999 to +99999.
+Determine the number Q of odd digits in the number
+
+Input format
+N
+
+Output format
+Q
+
+
+TASK 5. Pizza
+
+The bakery bakes square and round pizzas. The price of a pizza per square centimetre of surface is 1 ruble.
+The user enters the side size of a square pizza S and the radius of a round pizza R.
+To calculate the price of square pizza SquarePrice and round pizza CirclePrice, tell the user which pizza is bigger.
+Square is bigger - if square is bigger,
+Circle is bigger - if round is bigger.
+Equal - if they are the same.
+Determine if a square pizza can fit into a round pizza box and vice versa.
+Square in circle - if a square pizza fits into a round pizza box.
+Circle in square - if a round pizza fits into a square pizza box.
+Impossible - if none of the options pass Pizza sizes are positive integers from 1 to 100.
+Input format
+S R
+
+Output format
+SquarePrice CirclePrice
+Square is bigger - if square is bigger,
+Circle is bigger - if round is bigger.
+Equal - if equal.
+Square in circle - if a square pizza fits into a round pizza box.
+Circle in square - if a round pizza fits into a square pizza box.
+Impossible - if none of the options pass.
+
+
+TASK 6. Triangle
+
+Get three numbers a, b and c from the user.
+If they can form a triangle, calculate its area S to 2 decimal places.
+If not, print 0.
+
+Input format
+a b c
+
+Output format
+S if triangle 0 if not triangle
+
+
+TASK 7. Days of the week
+
+By the number of weekday N, output its name WeekDay
+For an invalid number, print an error message
+Wrong day number
+
+Input format
+N
+
+Output format
+Monday
+Tuesday
+Wednesday
+Thursday
+Friday
+Saturday
+Sunday
+Wrong day number
+
+
+TASK 8. Call cost
+
+Calculate the cost of a telephone call C,
+if the duration of the call in minutes T is known,
+the cost of one minute of conversation P
+and day of the week N, because on Saturday and Sunday
+20% discount for calls of 10 minutes or longer
+10 minutes and longer
+
+Input format
+T P N
+
+Output format
+С
+
+
+TASK 9. Health damage
+
+For a game character its Health level is known in the range from 0.01 to 100.
+Damage Damage value, which is inflicted after the opponent's hit, is known.
+Output a new health level NewHealth
+or 0 if the level is less than 0.01.
+
+Input format
+Health Damage
+
+Output format
+NewHealth
+0 if the level is less than 0.01
+
+
+TASK 10. Calculator
+
+The user enters the number N, the op sign and the number M.
+Display the result of the entered expression Res.
+Arithmetic + or - operations
+
+Input format
+NopM
+
+Output format
+Res
