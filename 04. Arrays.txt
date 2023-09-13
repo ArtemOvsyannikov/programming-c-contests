@@ -1,0 +1,149 @@
+TASK 1. Flip the array
+
+Get from the user an array X of N integer elements
+Print the squares of the elements in reverse order
+
+Input format
+N
+x0
+x1
+...
+xN-1
+
+Output format
+xN-1 ^ 2
+xN-2 ^ 2
+...
+x0 ^ 2
+
+
+TASK 2. Crossing
+
+Two arrays of integers X and Y are given.
+Define a new array Z, which is the intersection of the original arrays.
+Intersection is the same elements in both arrays.
+Array Z must not contain repeating values.
+
+Input format
+N
+x0
+x1
+...
+xN-1
+M
+y0
+y1
+...
+yM-1
+
+Output format
+K
+z0
+z1
+...
+zK-1
+
+
+TASK 3. The nearest element
+
+In an array X of integers with N elements, find the sequence number of the element,
+as close as possible to the given number K modulo the given number.
+The array size does not exceed 1000 elements
+
+Input format
+N
+x0
+x1
+...
+xN-1
+K
+
+Output format
+Order number of the element closest modulo. If there are several such elements - the number of the first one on the left
+
+
+TASK 4. Local minima in the ring
+
+Determine the number of local minima in an integer array X of N elements given from the keyboard.
+A local minimum in a numeric array is a sequence of three adjacent numbers,
+in which the middle number is less than the numbers to the left and right of it.
+The array is closed in a ring: the last element is the left neighbour of the first element,
+and the first element is the right neighbour of the last.
+
+Input format
+N
+x0
+x1
+...
+xN-1
+
+Output format
+COUNT_MIN
+
+
+TASK 5. Difference with arithmetic mean
+
+Get an integer array X of N elements from the keyboard.
+Display on the screen a new real array Z, all elements of which
+are calculated as the difference between the elements of the initial array X
+and its arithmetic mean
+
+Input format
+N
+x0
+x1
+...
+xN-1
+
+Output format
+z0
+z1
+...
+zN-1
+
+
+TASK 6. Shift to the right
+
+Cyclically shift an array X of N real numbers given from the keyboard
+by the given number of positions P to the right
+It is guaranteed that N and P are positive numbers not greater than 1000.
+
+Input format
+N
+P
+x0
+x1
+...
+xN-1
+
+Output format
+p0
+p1
+...
+pN-1
+
+
+TASK 7. Stack with support for highs and lows
+
+Develop a stack that supports the standard operations push, pop, top
+as well as max and min operations
+All operations must be executed in standard time
+The maximum stack size must not exceed 10^5
+The programme receives the following command code as input
+0 - push
+1 - pop
+2 - top
+3 - max
+4 - min
+5 - exit
+For the push command the argument - the number to be added to the stack - is passed through a space
+If the stack is overflowed, the program displays the Overflow message.
+If not, the number is added, the programme does not output anything.
+For the pop command, if an item is removed from an empty stack, the Underflow message is printed.
+Otherwise, nothing is printed
+For the top, max, min commands, the following message is printed if the stack is empty
+Stack is empty
+If the stack is not empty, the top of the stack for the top command is printed.
+maximum number in the stack for the max command
+minimum number in the stack for the min command
+If the exit command is received, the programme is terminated
